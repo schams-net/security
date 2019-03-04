@@ -2,10 +2,10 @@
 
 ## Issue Details
 
-Creation date: 22 January 2019
-Disclosure date: 04 March 2019
-Status: won't be fixed
-TYPO3 advisory ID: N/A
+* Creation date: 22 January 2019
+* Disclosure date: 04 March 2019
+* Status: won't be fixed
+* TYPO3 advisory ID: N/A
 
 ## Summary
 
@@ -23,17 +23,17 @@ It is relevant to bear in mind that the below-mentioned extension is merely an e
 
 It is also important to understand that these extensions are third party products and not an integral part of the TYPO3 core or of any default installation.
 
-The TYPO3 extension "[joppnet] PHP Content Element" (extension key: "jn_phpcontentelement") [1][2] allows backend users to add arbitrary PHP code as content elements. The code is then executed in the frontend of a TYPO3 application.
+The TYPO3 extension "[joppnet] PHP Content Element" (extension key: `jn_phpcontentelement`) [[1](https://extensions.typo3.org/extension/jn_phpcontentelement/)][[2](https://github.com/joppnet/jn_phpcontentelement)] allows backend users to add arbitrary PHP code as content elements. The code is then executed in the frontend of a TYPO3 application.
 
-> "_Extension description: Allows you to add PHP scripts via frontend plugin._" [1]
+> "_Extension description: Allows you to add PHP scripts via frontend plugin._" [[1](https://extensions.typo3.org/extension/jn_phpcontentelement/)]
 
 ## Demo Exploit
 
 What could possibly go wrong?
 
-See [3].
+See [[3](https://github.com/schams-net/security/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/demo-800x434.mp4)]
 
-Example code used in the video to exploit the vulnerability: see [4].
+Example code used in the video to exploit the vulnerability: see [[4](https://github.com/schams-net/security/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/exploit.php)]
 
 ## Recommendation
 
@@ -51,12 +51,12 @@ It is important to understand that the issue described in this article is **not*
 * TYPO3 Security Team rejected the issue (ticket `#20190122xxxxxxxxxx`).
 
 **04 March 2019**
-* Demo published by [Michael Schams](https://schams.net) [5]
+* Demo published by [Michael Schams](https://schams.net) [[5](https://github.com/schams-net/security/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/)]
 
 ## References
 
-[1] https://extensions.typo3.org/extension/jn_phpcontentelement/
-[2] https://github.com/joppnet/jn_phpcontentelement
-[3] [GitHub](https://github.com/schams-net/security/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/demo-800x434.mp4)
-[4] [GitHub](https://github.com/schams-net/security/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/exploit.php)
-[5] [GitHub](https://github.com/schams-net/security/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/)
+[1] https://extensions.typo3.org/extension/jn_phpcontentelement/  
+[2] https://github.com/joppnet/jn_phpcontentelement  
+[3] [demo-800x434.mp4](https://github.com/schams-net/security/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/demo-800x434.mp4)  
+[4] [exploit.php](https://github.com/schams-net/security/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/exploit.php)  
+[5] [GitHub](https://github.com/schams-net/security/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/)  
