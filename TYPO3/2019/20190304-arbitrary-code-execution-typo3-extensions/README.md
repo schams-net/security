@@ -29,11 +29,10 @@ The TYPO3 extension "[joppnet] PHP Content Element" (extension key: `jn_phpconte
 
 ## Demo Exploit
 
-What could possibly go wrong?
+**What could possibly go wrong?**
 
-See [[3](https://s3.schams.net/security/2019/20190304/demo-800x434.mp4)]
-
-Example code used in the video to exploit the vulnerability: see [[4](https://github.com/schams-net/security/blob/master/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/exploit.php)]
+* Watch a [demo video](https://s3.schams.net/security/2019/20190304/demo-800x434.mp4) [[3](https://s3.schams.net/security/2019/20190304/demo-800x434.mp4)]
+* Review the [exploit code](https://github.com/schams-net/security/blob/master/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/exploit.php) used in the video [[4](https://github.com/schams-net/security/blob/master/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/exploit.php)]
 
 ## Recommendation
 
@@ -57,6 +56,6 @@ It is important to understand that the issue described in this article is **not*
 
 [1] https://extensions.typo3.org/extension/jn_phpcontentelement/  
 [2] https://github.com/joppnet/jn_phpcontentelement  
-[3] [demo-800x434.mp4](https://s3.schams.net/security/2019/20190304/demo-800x434.mp4)  
-[4] [exploit.php](https://github.com/schams-net/security/blob/master/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/exploit.php)  
+[3] [demo video](https://s3.schams.net/security/2019/20190304/demo-800x434.mp4)  
+[4] [exploit code](https://github.com/schams-net/security/blob/master/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/exploit.php)  
 [5] [GitHub](https://github.com/schams-net/security/TYPO3/2019/20190304-arbitrary-code-execution-typo3-extensions/)  
